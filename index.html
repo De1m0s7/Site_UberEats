@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Uber Eats</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__content container">
+                <a class="header__logo" href="index.html">
+                    <img class="logo" src="images/black-logo.svg" alt="logo">
+                </a>
+                <div class="header__items">
+                    <a class="header__btn btn" href="#">Войти</a>
+                    <a class="header__icon icon-basket" href="#" ></a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="search">
+                <div class="container">
+                    <form class="search__form" action="#" >
+                        <input class="search__input-field" type="text" name="form-field" placeholder="Поиск по ресторанам и кухням" >
+                    </form>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="main__title">Рестораны в Москве</h2>
+                <div class="main__list">
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/mcdonalds.jpg" alt="McDonalds"></img>
+                        <div class="main__description">
+                            <h3 class="main__subtitle">Макдоналдс — Газетный</h3>
+                            <p class="main__text">₽₽ • Бургеры</p>
+                            <p class="main__timing">25 - 35 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/dimsum.jpg" alt="DimSum">
+                        <div class="main__description">
+                            <h3 class="main__subtitle">DimSum & Co — ЦДМ</h3>
+                            <p class="main__text">₽ • Японская • Китайская • Азиатская</p>
+                            <p class="main__timing">40 - 50 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/dvijok.jpg" alt="Dvijok" >
+                        <div class="main__description">
+                            <h3 class="main__subtitle">ДвижОК — Манежная</h3>
+                            <p class="main__text">₽ • Американская • Европейская</p>
+                            <p class="main__timing">35 - 45 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/nia.jpg" alt="Nia">
+                        <div class="main__description">
+                            <h3 class="main__subtitle">НЯ — NHA</h3>
+                            <p class="main__text">₽₽ • Вьетнамская</p>
+                            <p class="main__timing">30 - 40 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/tochka-dzi.jpg" alt="TockaDzi">
+                        <div class="main__description">
+                            <h3 class="main__subtitle">Точка Дзы — Цветной</h3>
+                            <p class="main__text">₽₽ • Вьетнамская</p>
+                            <p class="main__timing">40 - 50 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/cinnabon.jpg" alt="Cinnabon">
+                        <div class="main__description">
+                            <h3 class="main__subtitle">Cinnabon</h3>
+                            <p class="main__text">₽ • Выпечка • Десерты • Капкейки</p>
+                            <p class="main__timing">25 - 35 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/pizzelove.jpg" alt="PizzeLove">
+                        <div class="main__description">
+                            <h3 class="main__subtitle">PIZZELOVE</h3>
+                            <p class="main__text">₽₽ • Пицца</p>
+                            <p class="main__timing">15 - 25 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/ziu-cafe.jpg" alt="Ziu-cafe">
+                        <div class="main__description">
+                            <h3 class="main__subtitle">Zю кафе — Тверская</h3>
+                            <p class="main__text">₽₽ • Японская</p>
+                            <p class="main__timing">25 - 35 мин</p>
+                        </div>
+                    </a>
+                    <a class="main__item" href="restaurant.html">
+                        <img class="main__image" src="images/bar-bq-cafe.jpg" alt="BQ-cafe">
+                        <div class="main__description">
+                            <h3 class="main__subtitle">Bar BQ Cafe — Манежная</h3>
+                            <p class="main__text">₽₽₽ • Европейская</p>
+                            <p class="main__timing">30 - 40 мин</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img class="footer__footer-logo" src="images/white-logo.svg" alt="logo">
+                </div>
+                <div class="footer__information">
+                    <div class="footer__item">
+                        <div class="footer__language dropdown">
+                            <button class="btn-lang dropbtn" onclick="myFunction()">Русский</button>
+                            <div class="btn-lang-content dropdown-content" id="myDropdown">
+                                <a class="btn-lang-content__link" href="#">Русский</a>
+                                <a class="btn-lang-content__link" href="#">Український</a>
+                                <a class="btn-lang-content__link" href="#">English</a>
+                            </div>
+                        </div>
+                        <div class="footer__social-network">
+                            <div class="hash-tag">
+                                <p class="hash-tag__text"><span class="hash-tag__grid">#</span>UberEats</p>
+                            </div>
+                            <div class="social-network">
+                                <div class="social-network__list">
+                                    <a class="social-network__link icon-fb" href="#"></a>
+                                    <a class="social-network__link icon-twitter" href="#"></a>
+                                    <a class="social-network__link icon-instagram" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <a class="footer__link" href="#">Об UberEats</a>
+                        <a class="footer__link" href="#">Станьте партнёром по доставке</a>
+                        <a class="footer__link" href="#">Станьте парнёром-рестораном</a>
+                    </div>
+                    <div class="footer__item">
+                        <a class="footer__link" href="#">Все города</a>
+                        <a class="footer__link" href="#">Цены</a>
+                        <a class="footer__link" href="#">Помощь</a>
+                        <a class="footer__link" href="#">FAQs</a>
+                    </div>
+                </div>
+                <div class="footer__item-download">
+                    <div class="footer__item-download-content">
+                        <a class="footer__item-download-link" href="#">
+                            <picture>
+                                <source srcset="images/app-store.svg" media="(min-width:768px)">
+                                <source srcset="images/app-store-mobile.svg" media="(max-width:767px)">
+                                <img class="footer__item-download-image" src="images/app-store.svg" alt="app-store">
+                            </picture>
+                        </a>
+                        <a class="footer__item-download-link" href="#">
+                            <picture>
+                                <source srcset="images/google-play.svg" media="(min-width:768px)">
+                                <source srcset="images/google-play-mobile.svg" media="(max-width:767px)">
+                                <img class="footer__item-download-image" src="images/google-play.svg" alt="google-play">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__bottom-content">
+                        <p class="footer__bottom-copyright">© 2017 Uber Technologies Inc.</p>
+                        <a class="footer__bottom-link" href="#">Обработка персональных данных</a>
+                        <a class="footer__bottom-link" href="#">Пользовательское соглашение</a>
+                    </div>
+                </div>
+                <div class="btn-top">
+                    <img src="images/btn-top-arrow.svg" alt="arrow">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
